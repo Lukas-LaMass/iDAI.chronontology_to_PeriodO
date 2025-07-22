@@ -13,4 +13,6 @@ Um herauszufinden, welche Orte für die getroffene Auswahl von Perioden relevant
 
 3. Die festgestellten Orte müssen mit Wikidata abgegleichen werden. Wenn es zu einem Ort keine Übereinstimmung gibt, muss dieser angelegt werden. Den exakten Workflow hierzu beschreibt "Gazetteer_to_Wikidata_vx_yyyy-mm-dd.ipynb".
 
-4. Nun können die vorhandenen Daten in einer Import-Tabelle zusammengeführt und in das Schema von PerioO konveritert werden. Das Skript hierzu steht derzeit noch aus.
+4. Das Hauptskript "Chronontology_to_PeriodO_vx_yyyy-mm-dd.ipynb benötigt lediglich eine Liste der zu konvertierenden Perioden mit der Info "ChronoID" sowie die zuovor generierten Tabellen mit den Gazetteer- und Wikidata-Verweisen. Da PeriodO über keine API verfügt, nutzt das Skript eine vorprogrammiert den Client im Browser und lädt die angelegten Perioden als Backup-File herunter. Darin werden letzte Ergänzungen vorgenommen. Die Herstellung der Relation hasPart/isPartOf wird ebenfalls bald in diesen Schritt integriert werden.
+
+5. Das Resultat kann als Backup-File in den PeriodO-Client hochgeladen werden.

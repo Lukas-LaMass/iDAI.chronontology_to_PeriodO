@@ -1,6 +1,6 @@
 ## iDAI.chronontology to PeriodO
 
-Dieses Repositorium enthält Beschreibungen des Workflows und dabei unterstützende Skripte, um Perioden aus iDAI.chronontology in PeriodO zu überführen.
+Dieses Repositorium enthält die Beschreibung des Workflows und dabei unterstützende Skripte, um Perioden aus iDAI.chronontology in PeriodO zu überführen.
 
 Dieser Workflow wurde im Projekt FAIR.rdm im DFG-geförderten SPP 2143 "Entangeld Africa" entwickelt.
 
